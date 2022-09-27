@@ -10,6 +10,25 @@ h2 {
   font-family: 'Playfair Display', serif;
 }
 
+body {
+    background-color: #ffefef;
+}
+
+.kontejner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .hlavicka {
     text-align: center;
+}
+
+.nabidka {
+    text-align: center;
+    background-color: #ffffff;
+    width: 960px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
 }
